@@ -9,7 +9,7 @@ port = 22
 # Here's the log file, you can modify it however you want
 logging.basicConfig(filename="logs.log", level=logging.INFO, format='%(asctime)s - %(message)s')
 
-host_key = paramiko.RSAKey(filename='YOUR_HONEYPOTS_PRIVATE_KEY.key')
+host_key = paramiko.RSAKey(filename='GENERATED_RSA_KEY.key')
 
 class HoneypotSSHServer(paramiko.ServerInterface):
     def __init__(self):
