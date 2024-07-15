@@ -10,5 +10,7 @@
 <h3>Clone the repository</h3>
 <code>git clone https://github.com/3ngine/ssh-honeypot</code><br>
 <code>cd ssh-honeypot</code>
+<strong>After you have navigated to ssh-honeypot you need to generate RSA key</strong><br>
+<code>ssh-keygen -t rsa -f key_rsa.key</code>
 <h3>Install requirements</h3>
 <code>pip install -r requirements.txt</code>
