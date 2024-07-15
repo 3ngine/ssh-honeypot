@@ -9,7 +9,7 @@
 <h2>Installation</h2>
 <h3>Clone the repository</h3>
 <code>git clone https://github.com/3ngine/ssh-honeypot</code><br>
-<code>cd ssh-honeypot</code><br><br>
+<code>cd ssh-honeypot</code><br>
 <h3>Generate RSA key</h3>
 <code>ssh-keygen -t rsa -f key_rsa.key</code>
 <h3>Install requirements</h3>
